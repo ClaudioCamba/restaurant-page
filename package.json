@@ -4,7 +4,9 @@
   "description": "The Odin Project | Restaurant Page build using HTML, CSS, Javascript &amp; Webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
