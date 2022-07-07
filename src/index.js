@@ -5,7 +5,7 @@ import { contact } from './pages/contact';
 
 const content = document.querySelector('#content'); // Content wrap
 
-// Navigation
+// Build Navigation
 const navbar = () => {
     const ul = document.createElement('ul');
     const header = document.createElement('header');
@@ -27,7 +27,6 @@ const navbar = () => {
                 content.innerHTML = '';
                 content.appendChild(pages.func[i]);
                 e.target.classList.add('active');
-                console.log(e.target)
             }
         });
         ul.appendChild(li);

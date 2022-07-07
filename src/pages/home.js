@@ -2,13 +2,29 @@
 import data from './../data/copy.csv';
 
 // Convert array to object
-const obj = {};
-for (const val of data) { obj[val[0]] = val[1]; }
+const arrToObj = () => {
+    const obj = {};
+    for (const arr of data) {
+        if (arr.length === 2) {
+            obj[arr[0]] = arr[1];
+        } else if (arr.length > 2) {
+            obj[arr[0]] = [];
+            for (let x = 1; x < arr.length; x++) {
+                if (arr[x] !== '' && arr[x] !== undefined) {
+                    obj[arr[0]].push(arr[x]);
+                }
+            }
+        }
+    }
+    return obj;
+}
+
+const copy = arrToObj();
 
 // build main title
 const mainTitle = () => {
     const title = document.createElement('h1');
-    title.innerText = obj.Title;
+    title.innerText = copy['home-title'];
     title.classList.add('title');
     return title;
 }
@@ -16,7 +32,7 @@ const mainTitle = () => {
 // build intro paragraph
 const introDesc = () => {
     const para = document.createElement('p');
-    para.innerText = obj.Intro;
+    para.innerText = copy['home-intro'];
     para.classList.add('desc');
     return para;
 }
