@@ -1,7 +1,5 @@
 // a file called home.js
-// import kvImg from './../img/restaurant-kv2.jpg';
 import data from './../data/copy.csv';
-
 
 // Convert array to object
 const obj = {};
@@ -22,18 +20,6 @@ const introDesc = () => {
     para.classList.add('desc');
     return para;
 }
-
-// // build background img
-// const bgImg = () => {
-//     const img = new Image();
-//     const div = document.createElement('div');
-//     div.appendChild(img);
-//     div.classList.add('img-wrap');
-//     img.src = kvImg;
-//     img.alt = obj.Title;
-//     img.classList.add('bg-img');
-//     return div;
-// }
 
 // Build home component
 const home = () => {

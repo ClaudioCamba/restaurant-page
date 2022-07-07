@@ -184,15 +184,45 @@ body {
 }
 
 /* Navigation */
-ul.content-nav {
-  color: black;
+header {
+  z-index: 1;
+}
+
+.content-nav {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  top: 3rem;
+  left: 2.2rem;
+}
+
+.content-nav li {
+  font-family: "Nunito-Normal";
+  color: var(--white-color);
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid var(--white-color);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+}
+
+.content-nav li.active {
+  font-family: "Nunito-Bold";
+  background-color: var(--white-color);
+  color: var(--black-color);
 }
 
 /* Content */
+#content,
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
 
 #content {
-  max-width: 1440px;
-  margin: auto;
   height: 100vh;
   background-image: url(http://127.0.0.1:5500/Learn-Web-Development/top_projects_repos/main_top_projects/restaurant-page/dist/a3a472bbe729025ab2d7.jpg);
   background-color: var(--black-color);
