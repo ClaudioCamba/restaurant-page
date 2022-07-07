@@ -28,6 +28,23 @@ const mainTitle = () => {
     title.classList.add('title');
     return title;
 }
+
+// Build menu sections
+const menuSection = () => {
+    const div = document.createElement('div');
+    div.classList.add('menu-wrap');
+
+    // Subtitle
+    const h2 = document.createElement('h2');
+    h2.innerText = 'Subsection';
+
+    // 
+
+
+    div.appendChild(h2);
+    return div
+}
+
 // // build background img
 // const bgImg = () => {
 //     const img = new Image();
@@ -46,7 +63,7 @@ const mainTitle = () => {
 const menu = () => {
     const menuContent = document.createElement('div'); // create main wrapper
     menuContent.classList.add('menu-wrap');
-    menuContent.appendChild(mainTitle()); // building kv image
+    menuContent.append(mainTitle(), menuSection()); // building kv image
     return menuContent;
 };
 

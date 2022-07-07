@@ -36,5 +36,5 @@ const navbar = () => {
 };
 
 document.body.prepend(navbar()); // Append Navigation onload
-content.appendChild(home()); // Append Home onload
+content.appendChild(menu()); // Append Home onload
 
