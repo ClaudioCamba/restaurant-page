@@ -32,16 +32,30 @@ const mainTitle = () => {
 // Build menu sections
 const menuSection = () => {
     const div = document.createElement('div');
-    div.classList.add('menu-wrap');
+    div.classList.add('menu-options');
+    const sections = ['start-title', 'main-title', 'dessert-title'];
 
-    // Subtitle
-    const h2 = document.createElement('h2');
-    h2.innerText = 'Subsection';
+    for (const sec of sections) {
+        // Subtitle
+        const h2 = document.createElement('h2');
+        h2.innerText = copy[sec][0];
 
-    // 
-
-
-    div.appendChild(h2);
+        // Option list
+        const ul = document.createElement('ul');
+        for (let i = 0; i < parseInt(copy[sec][2]); i++) {
+            const option = copy[copy[sec][1] + i];
+            const li = document.createElement('li');
+            for (const val of option) {
+                const p = document.createElement('p');
+                p.innerText = val;
+                li.appendChild(p);
+            }
+            ul.appendChild(li);
+        }
+        div.appendChild(h2);
+        div.appendChild(ul);
+    }
+    console.log(copy);
     return div
 }
 

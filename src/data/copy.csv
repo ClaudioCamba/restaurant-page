@@ -2,14 +2,14 @@ home-title,Burger!,,
 home-intro,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. Nisi hic molestias accusantium, reiciendis commodi, perspiciatis iusto temporibus corrupti aspernatur fuga aliquam sunt eos porro cumque consectetur aperiam!",,
 menu-title,Burger! Menu,,
 start-title,Starters,starter,3
-starter1,Starter 1,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£5.00
-starter2,Starter 2,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£5.00
-starter3,Starter 3,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£5.00
+starter0,Starter 1,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£5.00
+starter1,Starter 2,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£5.00
+starter2,Starter 3,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£5.00
 main-title,Mains,main,3
-main1,Main 1,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£20.00
-main2,Main 2,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£20.00
-main3,Main 3,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£20.00
+main0,Main 1,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£20.00
+main1,Main 2,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£20.00
+main2,Main 3,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£20.00
 dessert-title,Dessert,dessert,3
-dessert1,Dessert 1,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£5.00
-dessert2,Dessert 2,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£5.00
-dessert3,Dessert 3,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£5.00
+dessert0,Dessert 1,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£5.00
+dessert1,Dessert 2,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£5.00
+dessert2,Dessert 3,"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, vel blanditiis. ",£5.00
