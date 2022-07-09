@@ -37,7 +37,7 @@ const mainTitle = () => {
 // Build menu sections
 const menuSection = () => {
 
-    console.log(allImages)
+    // console.log(allImages)
 
     const div = document.createElement('div');
     div.classList.add('menu-options');
