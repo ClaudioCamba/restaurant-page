@@ -224,7 +224,7 @@ header {
 
 #content {
   min-height: 100vh;
-  background-image: url(http://127.0.0.1:5500/Learn-Web-Development/top_projects_repos/main_top_projects/restaurant-page/dist/a3a472bbe729025ab2d7.jpg);
+  background-image: url("./../img/restaurant-kv2.jpg");
   background-color: var(--black-color);
   background-position: right;
   background-repeat: no-repeat;
@@ -237,10 +237,6 @@ header {
 
 .desc {
   font-family: "Nunito-Normal";
-}
-
-p.desc br {
-  display: none;
 }
 
 /* Home Styling */
@@ -272,4 +268,28 @@ p.desc br {
   line-height: 1.2;
   background-color: rgba(0, 0, 0, 0.5);
   height: max-content;
+}
+
+/* Menu Styling */
+.menu-wrap {
+  padding: 1.5rem;
+}
+
+.title {
+  font-size: 8rem;
+  padding: 0.2rem;
+  line-height: 1.1;
+}
+
+.menu-options {
+  padding: 0.8rem;
+}
+
+.menu-options h2 {
+  font-family: "Rubik-Moonrocks";
+  font-size: 3rem;
+}
+
+.menu-options ul {
+  display: grid;
 }
